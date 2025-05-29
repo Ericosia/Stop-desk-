@@ -34,7 +34,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <Image
-              src="/image.png"
+              src="https://i.imgur.com/dePLWCT.png"
               alt="WorldExpress Logo"
               width={50}
               height={50}
