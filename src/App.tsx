@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import InfoCard from './components/InfoCard';
 import Map from './components/Map';
 import TrackingSection from './components/TrackingSection';
-import ServicesSection from './components/ServicesSection';
 
 function App() {
   return (
