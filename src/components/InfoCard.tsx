@@ -4,7 +4,7 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 const InfoCard = () => {
   return (
     <div className="max-w-3xl bg-white p-8 rounded-lg shadow-md relative"> 
-      <h3 className="text-2xl font-bold text-blue-900 mb-6">WorldExpress Headquarters</h3>
+      <h3 className="text-2xl font-bold text-blue-500 mb-6">WorldExpress Headquarters</h3>
 
       <div className="space-y-6 relative">
         {/* Vertical Line */}
@@ -15,7 +15,7 @@ const InfoCard = () => {
             <MapPin className="h-5 w-5 text-red-500" />
           </div>
           <div>
-            <h4 className="font-semibold text-blue-900">Location</h4>
+            <h4 className="font-semibold text-blue-500">Location</h4>
             <p className="text-gray-700">International Business Center</p>
             <p className="text-gray-700">123 Global Avenue, Floor 7</p>
             <p className="text-gray-700">New York, NY 10001, USA</p>
@@ -27,7 +27,7 @@ const InfoCard = () => {
             <Phone className="h-5 w-5 text-red-500" />
           </div>
           <div>
-            <h4 className="font-semibold text-blue-900">Telephone</h4>
+            <h4 className="font-semibold text-blue-500">Telephone</h4>
             <p className="text-gray-700">+1 (212) 555-7890</p>
             <p className="text-gray-600 text-sm">Customer service available Monday to Friday</p>
           </div>
@@ -38,7 +38,7 @@ const InfoCard = () => {
             <Mail className="h-5 w-5 text-red-500" />
           </div>
           <div>
-            <h4 className="font-semibold text-blue-900">Email</h4>
+            <h4 className="font-semibold text-blue-500">Email</h4>
             <p className="text-gray-700">contact@worldexpress.com</p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const InfoCard = () => {
             <Clock className="h-5 w-5 text-red-500" />
           </div>
           <div>
-            <h4 className="font-semibold text-blue-900">Business Hours</h4>
+            <h4 className="font-semibold text-blue-500">Business Hours</h4>
             <div className="grid grid-cols-2 gap-x-4 text-gray-700">
               <span>Monday - Friday:</span>
               <span>8:00 - 18:00</span>
