@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Plane } from 'lucide-react';
 import NavLink from './NavLink';
+import Image from 'next/image';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,12 +33,18 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-red-900">
-              World<span className="text-blue-500">Express</span>
+            <Image
+              src="/image.png"
+              alt="WorldExpress Logo"
+              width={50}
+              height={50}
+              className="h-12 w-auto"
+            />
+            <span className="text-2xl font-bold text-red-600 text-red-500">
+              World<span className="text-blue-400">Express</span>
             </span>
           </div>
         </div>
-
       </div>
     </header>
   );
